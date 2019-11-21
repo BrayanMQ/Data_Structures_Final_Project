@@ -20,6 +20,7 @@ public class Pfed {
     public static void main(String[] args) throws IOException, ParseException {
         JSONReader as = new JSONReader();
         JSONMapa mapa = as.convertJSonToData();
+        System.out.println(mapa.toString());
     }
     
 }
